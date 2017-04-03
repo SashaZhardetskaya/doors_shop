@@ -5,7 +5,7 @@
 
 
 
-
+$mgrey: #f6f4f3;
 
 %link-button {  //extend this to <a>
 	padding: 12px 40px;
@@ -22,44 +22,6 @@
     	outline: 5px auto -webkit-focus-ring-color;
     }
 }
-
-
-// body { 
-// 	:-moz-scrollbar-end-backward: #35bdf6;
-// 	:-moz-scrollbar-end-forward: #35bdf6;
-// 	:-moz-scrollbar-start-backward: #35bdf6;
-// 	:-moz-scrollbar-start-forward: #35bdf6;
-// 	:-moz-scrollbar-thumb-proportional: #35bdf6;
-// }
-
-// body { //for Explorer
-//     ::scrollbar-arrow-color: #35bdf6; /* Цвет стрелок */
-//     ::scrollbar-base-color: #35bdf6; /* Цвет полосы прокрутки */
-//     ::scrollbar-shadow-color: #35bdf6; /* Цвет тени */
-//     ::scrollbar-highlight-color: #35bdf6; /* Цвет светлых участков тени */
-// }
-
-// ::-webkit-scrollbar{
-//     width:12px;
-// }
-// ::-webkit-scrollbar-thumb{
-//     border-width:1px 1px 1px 2px;
-//     border-color: #777;
-//     background-color: #35bdf6;
-// }
-// ::-webkit-scrollbar-thumb:hover{
-//     border-width: 1px 1px 1px 2px;
-//     border-color: #555;
-//     background-color: #00a9ed;
-// }
-// ::-webkit-scrollbar-track:vertical{
-//     border-width:0;
-// }
-// ::-webkit-scrollbar-track:hover{
-//     border-left: solid 1px #aaa;
-//     background-color: #eee;
-// }
-
 
 
 
@@ -469,13 +431,17 @@ footer {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    box-shadow: inset 0 -29px 26px -21px rgba(51, 51, 51, 0.76);
     
     }
 
 .slider-container {
 	background: #eaeaea;
+	margin: -11px 0 -11px 0;
+	position: relative;
+	z-index: 5;
 
-	
+
 	display: inline-block;
     vertical-align: middle;
     line-height: 120px;
@@ -483,30 +449,28 @@ footer {
     padding: 10px 10px;
     font-size: 28px;
     font-family: Arial, sans-serif;
-    color: #fff;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.7);
     border: 10px solid transparent;
     border-width: 10px 0;
-    background-color: lightblue;
+    background-color: $mgrey;
     background-color: hsla(0, 0%, 0%, 0);
     background-image:
-        -webkit-linear-gradient(lightblue, skyblue),
-        -webkit-linear-gradient(top left, transparent 50.5%, lightblue 50.5%),
-        -webkit-linear-gradient(top right, transparent 50.5%, lightblue 50.5%),
-        -webkit-linear-gradient(bottom left, transparent 50.5%, skyblue 50.5%),
-        -webkit-linear-gradient(bottom right, transparent 50.5%, skyblue 50.5%);
+        -webkit-linear-gradient($mgrey, $mgrey),
+        -webkit-linear-gradient(top left, transparent 50.5%, $mgrey 50.5%),
+        -webkit-linear-gradient(top right, transparent 50.5%, $mgrey 50.5%),
+        -webkit-linear-gradient(bottom left, transparent 50.5%, $mgrey 50.5%),
+        -webkit-linear-gradient(bottom right, transparent 50.5%, $mgrey 50.5%);
     background-image:
-        -moz-linear-gradient(lightblue, skyblue),
-        -moz-linear-gradient(top left, transparent 50.5%, lightblue 50.5%),
-        -moz-linear-gradient(top right, transparent 50.5%, lightblue 50.5%),
-        -moz-linear-gradient(bottom left, transparent 50.5%, skyblue 50.5%),
-        -moz-linear-gradient(bottom right, transparent 50.5%, skyblue 50.5%);
+        -moz-linear-gradient($mgrey, $mgrey),
+        -moz-linear-gradient(top left, transparent 50.5%, $mgrey 50.5%),
+        -moz-linear-gradient(top right, transparent 50.5%, $mgrey 50.5%),
+        -moz-linear-gradient(bottom left, transparent 50.5%, $mgrey 50.5%),
+        -moz-linear-gradient(bottom right, transparent 50.5%, $mgrey 50.5%);
     background-image:
-        linear-gradient(lightblue, skyblue),
-        linear-gradient(to bottom right, transparent 50.5%, lightblue 50.5%),
-        linear-gradient(to bottom left, transparent 50.5%, lightblue 50.5%),
-        linear-gradient(to top right, transparent 50.5%, skyblue 50.5%),
-        linear-gradient(to top left, transparent 50.5%, skyblue 50.5%);
+        linear-gradient($mgrey, $mgrey),
+        linear-gradient(to bottom right, transparent 50.5%, $mgrey 50.5%),
+        linear-gradient(to bottom left, transparent 50.5%, $mgrey 50.5%),
+        linear-gradient(to top right, transparent 50.5%, $mgrey 50.5%),
+        linear-gradient(to top left, transparent 50.5%, $mgrey 50.5%);
     background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
     background-position: 0 0, 10px 0, 10px 0, 10px 100%, 10px 100%;
     background-size: auto auto, 20px 20px, 20px 20px, 20px 20px, 20px 20px;
