@@ -10300,7 +10300,28 @@ footer {
   -o-background-size: cover; }
 
 .slider-container {
-  background: #eaeaea; }
+  background: #eaeaea;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 120px;
+  width: 75%;
+  padding: 10px 10px;
+  font-size: 28px;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+  border: 10px solid transparent;
+  border-width: 10px 0;
+  background-color: lightblue;
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(lightblue, skyblue), -webkit-linear-gradient(top left, transparent 50.5%, lightblue 50.5%), -webkit-linear-gradient(top right, transparent 50.5%, lightblue 50.5%), -webkit-linear-gradient(bottom left, transparent 50.5%, skyblue 50.5%), -webkit-linear-gradient(bottom right, transparent 50.5%, skyblue 50.5%);
+  background-image: -moz-linear-gradient(lightblue, skyblue), -moz-linear-gradient(top left, transparent 50.5%, lightblue 50.5%), -moz-linear-gradient(top right, transparent 50.5%, lightblue 50.5%), -moz-linear-gradient(bottom left, transparent 50.5%, skyblue 50.5%), -moz-linear-gradient(bottom right, transparent 50.5%, skyblue 50.5%);
+  background-image: linear-gradient(lightblue, skyblue), linear-gradient(to bottom right, transparent 50.5%, lightblue 50.5%), linear-gradient(to bottom left, transparent 50.5%, lightblue 50.5%), linear-gradient(to top right, transparent 50.5%, skyblue 50.5%), linear-gradient(to top left, transparent 50.5%, skyblue 50.5%);
+  background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
+  background-position: 0 0, 10px 0, 10px 0, 10px 100%, 10px 100%;
+  background-size: auto auto, 20px 20px, 20px 20px, 20px 20px, 20px 20px;
+  background-clip: padding-box, border-box, border-box, border-box, border-box;
+  background-origin: padding-box, border-box, border-box, border-box, border-box; }
 
 .slider {
   z-index: 0;
