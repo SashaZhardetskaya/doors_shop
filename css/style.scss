@@ -4,6 +4,13 @@
 @import './fonts';
 
 
+@mixin background-size($size) {
+  -webkit-background-size: $size;
+     -moz-background-size: $size;
+      -ms-background-size: $size;
+       -o-background-size: $size;
+          background-size: $size;
+}
 
 $mgrey: #f6f4f3;
 
@@ -159,83 +166,6 @@ $mgrey: #f6f4f3;
     }
 }
 
-
-
-
-.projects {
-	margin-bottom: 100px;
-}
-
-.projects-img {
-	padding: 0;
-	img {
-		width: 100%;
-		vertical-align: bottom; //cancel bootstrap settings
-		overflow: hidden;
-		-webkit-transition: all 1s ease;
-     	-moz-transition: all 1s ease;
-       	-o-transition: all 1s ease;
-      	-ms-transition: all 1s ease;
-        transition: all 1s ease;
-		&:hover,{
-			-webkit-filter: contrast(145%);
-			-webkit-filter: brightness(145%); 
-		}
-	}
-}
-
-.projects-title {
-	padding: 100px 0 50px 0;
-	text-align: center;
-	text-transform: uppercase;
-	color: #333;	
-	font-family: "GothamProLight";
-    letter-spacing: 5px;
-}
-
-.see-all-work {
-	.see-all-work_padding {
-		//margin-top: 100px;
-		padding: 0;
-		text-transform: uppercase;
-	}
-	.services {
-		padding: 75px 0 75px 0;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		background-color: #02243e;
-		color: white;
-		h2 {
-			text-transform: uppercase;
-			font-family: "GothamProRegular";
-			font-size: 17px;
-		}
-	}
-	.works {
-		@extend .services;
-		background-color: #031e32;
-	}
-	a {
-		@extend %link-button;
-	}
-}
-
-.recognition {
-	padding: 100px 0 100px 0;
-	background-color: #F6F6F6;
-	text-align: center;
-	h1 {
-	text-transform: uppercase;
-	color: #333;	
-	font-family: "GothamProLight";
-    letter-spacing: 5px;
-	}
-	p {
-		font-family: "GothamProRegular";
-		font-size: 15px;
-	}
-}
 
 .client-logo {
 	margin-top: 25px;
@@ -432,8 +362,51 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     box-shadow: inset 0 -29px 26px -21px rgba(51, 51, 51, 0.76);
-    
     }
+
+
+.doors {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+	bottom: -220px;
+	z-index: 3;
+}
+
+.door-single {
+	span {
+		display: block;
+		height: 280px;
+	}
+}
+
+.door-1 {
+	span {
+		background: url(../img/door-1.png) center center no-repeat;
+	}
+}
+.door-2 {
+	span {
+		background: url(../img/door-2.png) center center no-repeat;
+	}
+}
+.door-3 {
+	span {
+		background: url(../img/door-3.png) center center no-repeat;
+	}
+}
+.door-4 {
+	span {
+		background: url(../img/door-4.png) center center no-repeat;
+	}
+}
+.door-5 {
+	span {
+		background: url(../img/door-5.png) center center no-repeat;
+	}
+}
+
 
 .slider-container {
 	background: #eaeaea;
@@ -529,7 +502,7 @@ footer {
 		justify-content: center;
 		position: absolute;
 		left: 40%;
-		bottom: 45px; 
+		top: 45px; 
 		span {
 			opacity: 0.9;
 			background: #fff;
@@ -550,27 +523,6 @@ footer {
 }
 
 
-
-.subscribe {
-	padding: 70px 0 70px 0;
-	text-align: center;
-	background-color: #F6F6F6;
-	h1 {
-		text-transform: uppercase;
-		color: #333;	
-		font-family: "GothamProLight";
-		letter-spacing: 5px;
-	}
-	.form-group {
-		font-family: "GothamProLight";
-		font-size: 16px;
-		color: #333;
-		letter-spacing: 1px;
-		input {
-			border-radius: 0px;
-		}
-	}
-}
 
 
 
@@ -595,101 +547,3 @@ footer {
 	}
 }
 
-
-//about page 
-
-.about-home {
-	//height: 80vh;
-	height: auto;
-	position: relative;
-	overflow: hidden;
-	background-color: #F6F6F6;
-	
-	video {
-		margin: auto;
-		position: absolute;
-		top: 0%;
-		left: 0%;
-		padding: 0;
-		@media (max-width: 920px) {
-			height: 100%;
-			width: auto;
-		}
-	}
-}
-
-
-.about-home-page-content{
-	// position: relative;
-	// vertical-align: middle;
-	// top: 30%;
-	width: 100%;
-    height: 100%;
-    margin: auto;
-    padding-top: 140px;
-    max-width: 500px;
-    overflow: hidden;
-	text-align: center;
-	color: white;
-    .main-logo {
-    	width: 200px;
-    	height: auto;
-    }
-    h1 {
-    	font-family: "GothamProRegular";
-    	letter-spacing: 1px;
-    	font-weight: 200;
-    	line-height: 27px;
-    }
-    p {
-    	font-family: "GothamProRegular";
-    	// letter-spacing: 1px;
-    	font-size: 15px;
-    	line-height: 25px;
-    }
-}
-
-
-.about-home-button {
-	margin: 150px 0 40px 0;
-	a {
-    	@extend %link-button;	
-    }
-}
-
-.team {
-	padding: 100px 0 100px 0;
-	background-color: #F6F6F6;
-	text-align: center;
-	h1 {
-		text-transform: uppercase;
-		color: #333;	
-		font-family: "GothamProLight";
-	    letter-spacing: 5px;
-		}
-	p {
-		font-family: "GothamProRegular";
-		font-size: 15px;
-	}
-	.member-profile {
-		height: 420px;
-		img {
-		margin-top: 25px;
-		}
-		h2 {
-			text-transform: uppercase;
-			color: #333;	
-			font-family: "GothamProRegular";
-		    font-size: 23px;
-		}
-		h3 {
-			text-transform: uppercase;
-			font-family: "GothamProRegular";
-			font-size: 14px;
-		}
-		p {
-			font-family: "GothamProLight";
-			font-size: 15px;
-		}
-	}
-}

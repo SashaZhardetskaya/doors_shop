@@ -9962,7 +9962,7 @@ button.close {
   font-style: normal;
   font-weight: normal; }
 
-.see-all-work a, .designed-developed-nyc a, .about-home-button a {
+.designed-developed-nyc a {
   padding: 12px 40px;
   color: white;
   border: 3px solid;
@@ -9972,7 +9972,7 @@ button.close {
   font-family: "GothamProRegular";
   font-size: 12px;
   cursor: pointer; }
-  .see-all-work a:hover, .designed-developed-nyc a:hover, .about-home-button a:hover, .see-all-work a:focus, .designed-developed-nyc a:focus, .about-home-button a:focus {
+  .designed-developed-nyc a:hover, .designed-developed-nyc a:focus {
     color: #35bdf6;
     outline: 5px auto -webkit-focus-ring-color; }
 
@@ -10089,64 +10089,6 @@ button.close {
     font-family: "GothamProRegular";
     font-size: 15px;
     line-height: 25px; }
-
-.projects {
-  margin-bottom: 100px; }
-
-.projects-img {
-  padding: 0; }
-  .projects-img img {
-    width: 100%;
-    vertical-align: bottom;
-    overflow: hidden;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease; }
-    .projects-img img:hover {
-      -webkit-filter: contrast(145%);
-      -webkit-filter: brightness(145%); }
-
-.projects-title {
-  padding: 100px 0 50px 0;
-  text-align: center;
-  text-transform: uppercase;
-  color: #333;
-  font-family: "GothamProLight";
-  letter-spacing: 5px; }
-
-.see-all-work .see-all-work_padding {
-  padding: 0;
-  text-transform: uppercase; }
-
-.see-all-work .services, .see-all-work .works {
-  padding: 75px 0 75px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #02243e;
-  color: white; }
-  .see-all-work .services h2, .see-all-work .works h2 {
-    text-transform: uppercase;
-    font-family: "GothamProRegular";
-    font-size: 17px; }
-
-.see-all-work .works {
-  background-color: #031e32; }
-
-.recognition {
-  padding: 100px 0 100px 0;
-  background-color: #F6F6F6;
-  text-align: center; }
-  .recognition h1 {
-    text-transform: uppercase;
-    color: #333;
-    font-family: "GothamProLight";
-    letter-spacing: 5px; }
-  .recognition p {
-    font-family: "GothamProRegular";
-    font-size: 15px; }
 
 .client-logo {
   margin-top: 25px; }
@@ -10300,6 +10242,33 @@ footer {
   -o-background-size: cover;
   box-shadow: inset 0 -29px 26px -21px rgba(51, 51, 51, 0.76); }
 
+.doors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  bottom: -220px;
+  z-index: 3; }
+
+.door-single span {
+  display: block;
+  height: 280px; }
+
+.door-1 span {
+  background: url(../img/door-1.png) center center no-repeat; }
+
+.door-2 span {
+  background: url(../img/door-2.png) center center no-repeat; }
+
+.door-3 span {
+  background: url(../img/door-3.png) center center no-repeat; }
+
+.door-4 span {
+  background: url(../img/door-4.png) center center no-repeat; }
+
+.door-5 span {
+  background: url(../img/door-5.png) center center no-repeat; }
+
 .slider-container {
   background: #eaeaea;
   margin: -12px 0 -12px 0;
@@ -10367,7 +10336,7 @@ footer {
     justify-content: center;
     position: absolute;
     left: 40%;
-    bottom: 45px; }
+    top: 45px; }
     .slider .nav span {
       opacity: 0.9;
       background: #fff;
@@ -10382,23 +10351,6 @@ footer {
       box-shadow: 0 1px 2px #000; }
       .slider .nav span.on {
         background: #35bdf6; }
-
-.subscribe {
-  padding: 70px 0 70px 0;
-  text-align: center;
-  background-color: #F6F6F6; }
-  .subscribe h1 {
-    text-transform: uppercase;
-    color: #333;
-    font-family: "GothamProLight";
-    letter-spacing: 5px; }
-  .subscribe .form-group {
-    font-family: "GothamProLight";
-    font-size: 16px;
-    color: #333;
-    letter-spacing: 1px; }
-    .subscribe .form-group input {
-      border-radius: 0px; }
 
 .insta-photo {
   padding: 0; }
@@ -10416,73 +10368,3 @@ footer {
     .insta-photo img:hover {
       -webkit-filter: contrast(145%);
       -webkit-filter: brightness(145%); }
-
-.about-home {
-  height: auto;
-  position: relative;
-  overflow: hidden;
-  background-color: #F6F6F6; }
-  .about-home video {
-    margin: auto;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    padding: 0; }
-    @media (max-width: 920px) {
-      .about-home video {
-        height: 100%;
-        width: auto; } }
-
-.about-home-page-content {
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  padding-top: 140px;
-  max-width: 500px;
-  overflow: hidden;
-  text-align: center;
-  color: white; }
-  .about-home-page-content .main-logo {
-    width: 200px;
-    height: auto; }
-  .about-home-page-content h1 {
-    font-family: "GothamProRegular";
-    letter-spacing: 1px;
-    font-weight: 200;
-    line-height: 27px; }
-  .about-home-page-content p {
-    font-family: "GothamProRegular";
-    font-size: 15px;
-    line-height: 25px; }
-
-.about-home-button {
-  margin: 150px 0 40px 0; }
-
-.team {
-  padding: 100px 0 100px 0;
-  background-color: #F6F6F6;
-  text-align: center; }
-  .team h1 {
-    text-transform: uppercase;
-    color: #333;
-    font-family: "GothamProLight";
-    letter-spacing: 5px; }
-  .team p {
-    font-family: "GothamProRegular";
-    font-size: 15px; }
-  .team .member-profile {
-    height: 420px; }
-    .team .member-profile img {
-      margin-top: 25px; }
-    .team .member-profile h2 {
-      text-transform: uppercase;
-      color: #333;
-      font-family: "GothamProRegular";
-      font-size: 23px; }
-    .team .member-profile h3 {
-      text-transform: uppercase;
-      font-family: "GothamProRegular";
-      font-size: 14px; }
-    .team .member-profile p {
-      font-family: "GothamProLight";
-      font-size: 15px; }
