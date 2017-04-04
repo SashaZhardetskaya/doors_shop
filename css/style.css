@@ -9968,19 +9968,26 @@ button.close {
 
 .menu {
   display: none;
-  top: 52px;
+  top: 65px;
   left: 17%;
   z-index: 6;
   position: fixed;
-  height: 300px;
-  width: 20%;
+  height: 230px;
+  width: 200px;
   padding: 0;
   background: #0c1106; }
+  .menu:after {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: -30px;
+    border: 10px solid transparent;
+    border-bottom: 20px solid #0c1106; }
 
 .menu-burger {
   z-index: 4;
   position: fixed;
-  top: 7px;
+  top: 10px;
   left: 17%;
   border: none;
   background-color: inherit;
