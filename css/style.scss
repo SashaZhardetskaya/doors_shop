@@ -14,21 +14,21 @@
 
 $mgrey: #f6f4f3;
 
-%link-button {  //extend this to <a>
-	padding: 12px 40px;
-	color: white;
-    border: 3px solid;
-    border-radius: 0px;
-    text-decoration: none;
-    text-transform: uppercase;
-	font-family: "GothamProRegular";
-	font-size: 12px;
-    cursor: pointer;
-    &:hover, &:focus {
-    	color: #35bdf6;
-    	outline: 5px auto -webkit-focus-ring-color;
-    }
-}
+// %link-button {  //extend this to <a>
+// 	padding: 12px 40px;
+// 	color: white;
+//     border: 3px solid;
+//     border-radius: 0px;
+//     text-decoration: none;
+//     text-transform: uppercase;
+// 	font-family: "GothamProRegular";
+// 	font-size: 12px;
+//     cursor: pointer;
+//     &:hover, &:focus {
+//     	color: #35bdf6;
+//     	outline: 5px auto -webkit-focus-ring-color;
+//     }
+// }
 
 
 
@@ -40,26 +40,23 @@ $mgrey: #f6f4f3;
 .menu {
 	display: none;
 	//display: block;
-	z-index: 1;
+	top: 52px;
+	left: 17%;
+	z-index: 6;
 	position: fixed;
-	height: 100vh;
-	width: 100%;
+	height: 300px;
+	width: 20%;
 	padding: 0;
-	background: rgba(3,30,50,.95);
-	background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;	
+	background: #0c1106;
 }
 .menu-burger {
 	z-index: 4;
 	position: fixed;
-	top: 10px;
-	left: 45px;
+	top: 7px;
+	left: 17%;
 	border: none;
 	background-color: inherit;
-	color: #35bdf6;
+	color: white;
 	outline: none;
 	.burger-icon {
 		display: block;
@@ -70,7 +67,7 @@ $mgrey: #f6f4f3;
 }
 
 .menu-list {
-	margin-top: 20vh;
+	margin-top: 20px;
 	padding: 0;
 	list-style-type: none;
 	text-transform: uppercase;
@@ -85,8 +82,8 @@ $mgrey: #f6f4f3;
 	align-items: center;
 	width: 100%;
 	text-decoration: none;
-	font-size: 22px;
-	line-height: 75px;
+	// font-size: 22px;
+	// line-height: 15px;
 	@media (max-height: 355px) {
 		line-height: 55px;
 	}
@@ -115,9 +112,10 @@ $mgrey: #f6f4f3;
 .header {
 	position: fixed;
 	background: red;
-	height: 40px;
+	height: 45px;
 	width: 100%;
 	z-index: 4;
+	box-sizing: border-box;
 }
 
 
@@ -196,47 +194,7 @@ $mgrey: #f6f4f3;
 	}
 }
 
-// .logo-background-img (and span in html)
 
-//  @each $name in dashboard, paper, paint, comment, link, comment-single, email-alert, heart {
-// 	.icon_#{$name} {
-// 		width: 90px;
-// 		height: 90px;
-// 		padding: 0px;
-// 		background: url(img/#{$name}.png) no-repeat 50% 50%;
-// 	}
-// }
-
-.designed-developed-nyc {
-	padding: 80px 0 80px 0;
-	background-color: #031e32;
-	color: white;
-	.img-background {
-		height: 300px;
-		content: '';
-		display: block;
-		background: url(../img/dandnyc.svg) no-repeat 50% 50%;
-		background-size: 200px auto;
-	}
-	h2 {
-		margin: 25px 0 0 0;
-		text-transform: uppercase;
-		font-family: "GothamProMedium";
-		font-size: 17px;
-		letter-spacing: 1px;
-	}
-	p {
-		margin: 5px 0 5px 0;
-		font-family: "GothamProRegular";
-		font-size: 15px;
-		line-height: 25px;
-	}
-	a {
-		@extend %link-button;
-		display: inline-block;
-		margin-top: 30px;
-	}
-}
 
 .work-together {
 	padding: 70px 0 70px 0;
@@ -362,7 +320,7 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     box-shadow: inset 0 -29px 26px -21px rgba(51, 51, 51, 0.76);
-    }
+}
 
 
 .doors {
@@ -372,6 +330,7 @@ footer {
 	position: relative;
 	bottom: -220px;
 	z-index: 3;
+	margin: 0 -3% 0 -3%;
 }
 
 .door-single {
@@ -409,12 +368,10 @@ footer {
 
 
 .slider-container {
-	background: #eaeaea;
+	// background: #eaeaea;
 	margin: -12px 0 -12px 0;
 	position: relative;
 	z-index: 2;
-
-
 	display: inline-block;
     vertical-align: middle;
     line-height: 120px;
@@ -523,27 +480,77 @@ footer {
 }
 
 
-
-
-
-.insta-photo {
-	padding: 0;
-	.insta-photo_padding {
-		padding: 0;
-	}
-	img {
-		width: 100%;
-		vertical-align: bottom; //cancel bootstrap settings
-		overflow: hidden;
-		-webkit-transition: all 1s ease;
-     	-moz-transition: all 1s ease;
-       	-o-transition: all 1s ease;
-      	-ms-transition: all 1s ease;
-        transition: all 1s ease;
-		&:hover,{
-			-webkit-filter: contrast(145%);
-			-webkit-filter: brightness(145%); 
-		}
-	}
+.main-contant {
+	// background: #eaeaea;
+	margin: -12px 0 -12px 0;
+	position: relative;
+	z-index: 2;
+	// display: inline-block;
+    // vertical-align: middle;
+    // line-height: 120px;
+    width: 100%;
+    // padding: 10px 10px;
+    // font-size: 28px;
+    // font-family: Arial, sans-serif;
+    border: 10px solid transparent;
+    border-width: 10px 0;
+    background-color: $mgrey;
+    background-color: hsla(0, 0%, 0%, 0);
+    background-image:
+        -webkit-linear-gradient($mgrey, $mgrey),
+        -webkit-linear-gradient(top left, transparent 50.5%, $mgrey 50.5%),
+        -webkit-linear-gradient(top right, transparent 50.5%, $mgrey 50.5%),
+        -webkit-linear-gradient(bottom left, transparent 50.5%, $mgrey 50.5%),
+        -webkit-linear-gradient(bottom right, transparent 50.5%, $mgrey 50.5%);
+    background-image:
+        -moz-linear-gradient($mgrey, $mgrey),
+        -moz-linear-gradient(top left, transparent 50.5%, $mgrey 50.5%),
+        -moz-linear-gradient(top right, transparent 50.5%, $mgrey 50.5%),
+        -moz-linear-gradient(bottom left, transparent 50.5%, $mgrey 50.5%),
+        -moz-linear-gradient(bottom right, transparent 50.5%, $mgrey 50.5%);
+    background-image:
+        linear-gradient($mgrey, $mgrey),
+        linear-gradient(to bottom right, transparent 50.5%, $mgrey 50.5%),
+        linear-gradient(to bottom left, transparent 50.5%, $mgrey 50.5%),
+        linear-gradient(to top right, transparent 50.5%, $mgrey 50.5%),
+        linear-gradient(to top left, transparent 50.5%, $mgrey 50.5%);
+    background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
+    background-position: 0 0, 10px 0, 10px 0, 10px 100%, 10px 100%;
+    background-size: auto auto, 20px 20px, 20px 20px, 20px 20px, 20px 20px;
+    background-clip: padding-box, border-box, border-box, border-box, border-box;
+    background-origin: padding-box, border-box, border-box, border-box, border-box;
 }
 
+.main-article {
+	background: linear-gradient(
+	  #f7f7f7 95%,
+	  #f1f1f1 50%);
+	  background-size: 3px 21px;
+	  background-color: #f7f7f7;
+	  border: 4px solid white;
+}
+
+
+.contact-home {
+	height: 70vh;
+	width: 100%;
+	position: relative;
+	background: -moz-linear-gradient(left, rgba(65,91,25,0.91) 0%, rgba(80,108,31,0.91) 17%, rgba(101,131,39,0.81) 41%, rgba(109,140,42,0.81) 50%, rgba(101,131,39,0.81) 59%, rgba(81,109,31,0.92) 82%, rgba(65,91,25,0.92) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(65,91,25,0.91) 0%,rgba(80,108,31,0.91) 17%,rgba(101,131,39,0.81) 41%,rgba(109,140,42,0.81) 50%,rgba(101,131,39,0.81) 59%,rgba(81,109,31,0.92) 82%,rgba(65,91,25,0.92) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(65,91,25,0.91) 0%,rgba(80,108,31,0.91) 17%,rgba(101,131,39,0.81) 41%,rgba(109,140,42,0.81) 50%,rgba(101,131,39,0.81) 59%,rgba(81,109,31,0.92) 82%,rgba(65,91,25,0.92) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8415b19', endColorstr='#eb415b19',GradientType=1 ); /* IE6-9 */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    box-shadow: inset 0 -29px 26px -21px rgba(51, 51, 51, 0.76);
+}
+
+.footer {
+	position: relative;
+	background: red;
+	bottom: 50px;
+	height: 40px;
+	width: 100%;
+	z-index: 4;
+}
