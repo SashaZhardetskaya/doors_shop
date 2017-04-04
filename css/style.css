@@ -10142,24 +10142,92 @@ button.close {
   display: flex;
   flex-direction: column;
   justify-content: flex-start; }
+  .info-col-first p {
+    margin: 0;
+    color: white;
+    font-size: 12px;
+    text-decoration: underline; }
+    .info-col-first p:first-child {
+      margin: 80px 0 0 0;
+      font-size: 14px;
+      text-decoration: none; }
 
-.social-link a {
-  width: 30px;
-  height: 30px;
+.social-link {
+  margin: 8px 0 0 0; }
+  .social-link a {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    margin: 0;
+    border: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    cursor: pointer; }
+    .social-link a.twitter {
+      background: url(../img/twitter.png) no-repeat 50% 50%; }
+    .social-link a.vk {
+      background: url(../img/vk.png) no-repeat 50% 50%; }
+    .social-link a.fb {
+      background: url(../img/fb.png) no-repeat 50% 50%; }
+    .social-link a.rss {
+      background: url(../img/rss.png) no-repeat 50% 50%; }
+    .social-link a.google {
+      background: url(../img/google.png) no-repeat 50% 50%; }
+
+.trash-big {
+  display: flex;
+  align-items: center;
+  height: 66px;
+  width: 200px;
+  margin: 8px 24px 0 0;
+  background: #d43332;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0px 0px 17px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 17px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 17px -2px rgba(0, 0, 0, 0.75); }
+  .trash-big h4 {
+    margin: 0;
+    color: white;
+    font-size: 18px; }
+  .trash-big p {
+    margin: 0;
+    padding: 0 0 0 2px;
+    font-size: 11px;
+    display: inline-block;
+    color: white;
+    text-decoration: none; }
+    .trash-big p .number {
+      font-weight: 700;
+      font-size: 12px; }
+
+.trash-big-img {
   display: inline-block;
-  margin: 0;
+  margin: 0 6px 0 0;
+  width: 70px;
+  height: 66px;
   border: none;
+  background: url(../img/trash-big.png) no-repeat 50% 50%;
   cursor: pointer; }
-  .social-link a.twitter {
-    background: url(../img/twitter.png) no-repeat 50% 50%; }
-  .social-link a.vk {
-    background: url(../img/vk.png) no-repeat 50% 50%; }
-  .social-link a.fb {
-    background: url(../img/fb.png) no-repeat 50% 50%; }
-  .social-link a.rss {
-    background: url(../img/rss.png) no-repeat 50% 50%; }
-  .social-link a.google {
-    background: url(../img/google.png) no-repeat 50% 50%; }
+
+.main-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 0 0 0; }
+  .main-logo span {
+    text-transform: uppercase;
+    color: #435b21;
+    font-size: 37px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), -1px -1px 0 rgba(255, 255, 255, 0.2); }
 
 .contact-home {
   height: 70vh;
