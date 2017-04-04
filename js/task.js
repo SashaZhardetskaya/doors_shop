@@ -108,8 +108,6 @@ $('.about-home-button a').click(function(){
 $(document).ready(function(){
 	new WOW().init(); // инициализация wow.js
     $('.menu-burger').on('click', showMmenu);
-    $('form').on('submit', sendMess);
-    $('#email1, #pass1').on('keyup', checkInputs);
 });
 
 
@@ -130,47 +128,6 @@ function showMmenu(){
 	$('.burger-icon').fadeIn(800);
 	$('.close-icon').fadeOut(800);
 	}
-}
-
-/* SUBSCRUBE FORM */
-
-function sendMess() {
-    event.preventDefault();
-    $.get(
-        "send.php",
-        {
-            "email" : $('#email1').val(),
-            "pass" : $('#pass1').val()
-        },
-        function (data){
-            if (data==1){
-                $('#send-res').html('Success!');
-                $('#myModal').modal('show');
-                setTimeout(function(){
-                    $('#myModal').modal('hide');
-                }, 3000);
-
-            }
-            else {
-                $('#send-res').html('Try again');
-                $('#myModal').modal('show');
-            }
-        }
-    );
-}
-
-function  checkInputs() {
-    var mail = $('#email1').val();
-        mail = $.trim(mail);
-    var pass= $('#pass1').val();
-        pass = $.trim(pass);
-
-    if (mail!='' && pass!='') {
-        $('form button[type="submit"]').removeAttr('disabled');
-    }
-    else {
-        $('form button[type="submit"]').attr('disabled', 'disabled');
-    }
 }
 
 

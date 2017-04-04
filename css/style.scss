@@ -118,7 +118,29 @@ $mgrey: #f6f4f3;
 	box-sizing: border-box;
 }
 
+.menu-content {
+	display: flex;
+	justify-content: flex-end;
+	form {
+		display: flex;
+		justify-content: flex-end;
+	}
+}
 
+.trash {
+	p {
+		display: inline-block;
+	}
+}
+.trash-img {
+	// content: "";
+	display: inline-block;
+	width: 30px;
+    height: 30px;
+    border: none;
+    background: url(../img/trash.png) no-repeat 50% 50%;
+    cursor: pointer; 
+}
 
 .search-form {
 	display: flex;
@@ -127,8 +149,9 @@ $mgrey: #f6f4f3;
 	box-sizing: border-box;
     width: 270px;
     height: 30px;
-    margin: 8px 0 0 0;
+    margin: 8px 8px 0 0;
     background: #992524; 
+    box-shadow: 9px -4px 9px -9px #000 inset;
     .search-form__submit {
 	    width: 35px;
 	    height: 30px;
@@ -148,15 +171,30 @@ $mgrey: #f6f4f3;
 	    background: #992524;
 	    color: #ff3f3e; 
 	    font-size: 17px;
+	    box-shadow: 9px -4px 9px -9px #000 inset, -9px 9px 9px -13px #000 inset;
 	    &::-webkit-input-placeholder {color:#ff3f3e;}
 		&::-moz-placeholder          {color:#ff3f3e;}/* Firefox 19+ */
 		&:-moz-placeholder           {color:#ff3f3e;}/* Firefox 18- */
 		&:-ms-input-placeholder      {color:#ff3f3e;}
-
 	}
 }
 
-
+.submit-lang {
+	display: inline;
+	width: 30px;
+    height: 30px;
+    border: none;
+    -webkit-appearance: none;
+    outline: none;
+    margin: 8px 8px 0 0;
+    background: #992524;
+    color: #ff3f3e; 
+    font-size: 17px;
+    box-shadow: 0 0 3px 3px #743c3c inset;
+    &.active {
+    	color: white;
+    }
+}
 
 
 

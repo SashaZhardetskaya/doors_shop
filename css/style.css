@@ -10033,6 +10033,24 @@ button.close {
   z-index: 4;
   box-sizing: border-box; }
 
+.menu-content {
+  display: flex;
+  justify-content: flex-end; }
+  .menu-content form {
+    display: flex;
+    justify-content: flex-end; }
+
+.trash p {
+  display: inline-block; }
+
+.trash-img {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: url(../img/trash.png) no-repeat 50% 50%;
+  cursor: pointer; }
+
 .search-form {
   display: flex;
   justify-content: flex-end;
@@ -10040,8 +10058,9 @@ button.close {
   box-sizing: border-box;
   width: 270px;
   height: 30px;
-  margin: 8px 0 0 0;
-  background: #992524; }
+  margin: 8px 8px 0 0;
+  background: #992524;
+  box-shadow: 9px -4px 9px -9px #000 inset; }
   .search-form .search-form__submit {
     width: 35px;
     height: 30px;
@@ -10059,6 +10078,7 @@ button.close {
     background: #992524;
     color: #ff3f3e;
     font-size: 17px;
+    box-shadow: 9px -4px 9px -9px #000 inset, -9px 9px 9px -13px #000 inset;
     /* Firefox 19+ */
     /* Firefox 18- */ }
     .search-form .search-form__search::-webkit-input-placeholder {
@@ -10069,6 +10089,21 @@ button.close {
       color: #ff3f3e; }
     .search-form .search-form__search:-ms-input-placeholder {
       color: #ff3f3e; }
+
+.submit-lang {
+  display: inline;
+  width: 30px;
+  height: 30px;
+  border: none;
+  -webkit-appearance: none;
+  outline: none;
+  margin: 8px 8px 0 0;
+  background: #992524;
+  color: #ff3f3e;
+  font-size: 17px;
+  box-shadow: 0 0 3px 3px #743c3c inset; }
+  .submit-lang.active {
+    color: white; }
 
 .home {
   height: 100vh;
