@@ -10451,6 +10451,8 @@ button.close {
   background-size: auto auto, 20px 20px, 20px 20px, 20px 20px, 20px 20px;
   background-clip: padding-box, border-box, border-box, border-box, border-box;
   background-origin: padding-box, border-box, border-box, border-box, border-box; }
+  .main-contant aside {
+    padding: 0; }
 
 .about-title {
   text-align: center;
@@ -10573,3 +10575,20 @@ button.close {
   -webkit-box-shadow: inset 0px 3px 20px -5px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: inset 0px 3px 20px -5px rgba(0, 0, 0, 0.75);
   box-shadow: inset 0px 3px 20px -5px rgba(0, 0, 0, 0.75); }
+
+.footer-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  margin: -20px 0 0 0; }
+  .footer-nav li {
+    margin: 0 0 0 3%;
+    display: inline-block;
+    color: white;
+    cursor: pointer; }
+
+.footer-content span {
+  display: block;
+  margin: 10px 0 0 0;
+  color: rgba(255, 255, 255, 0.4); }

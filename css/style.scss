@@ -652,6 +652,9 @@ $mgrey: #f6f4f3;
     background-size: auto auto, 20px 20px, 20px 20px, 20px 20px, 20px 20px;
     background-clip: padding-box, border-box, border-box, border-box, border-box;
     background-origin: padding-box, border-box, border-box, border-box, border-box;
+    aside {
+    	padding: 0;
+    }
 }
 
 .about-title {
@@ -790,4 +793,25 @@ $mgrey: #f6f4f3;
 	-webkit-box-shadow: inset 0px 3px 20px -5px rgba(0,0,0,0.75);
 	-moz-box-shadow: inset 0px 3px 20px -5px rgba(0,0,0,0.75);
 	box-shadow: inset 0px 3px 20px -5px rgba(0,0,0,0.75);
+}
+
+.footer-nav {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+	margin: -20px 0 0 0;
+	li {
+		margin: 0 0 0 3%;
+		display: inline-block;
+		color: white;
+		cursor: pointer;
+	}
+}
+.footer-content {
+	span {
+		display: block;
+		margin: 10px 0 0 0;
+		color: transparentize(white,.6);
+	}
 }
