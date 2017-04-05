@@ -420,10 +420,12 @@ $mgrey: #f6f4f3;
 	span {
 		margin: -2px 0 -2px 0;
 		color: #d8dcd4;
+		font-family: 'HelveticaNeue-Light';
 		&.phone-num {
 			color: white;
-			font-weight: 600;
+			// font-weight: 600;
 			font-size: 21px;
+			font-family: 'HelveticaNeue-Medium';
 		}
 	}
 }
@@ -739,6 +741,7 @@ $mgrey: #f6f4f3;
 	// margin: 0 0 0 0;
 	width: 170px;
 	a {
+		margin: 3px 0 0 0;
 		text-align: center;
 		color: white;
 		height: 66px;
@@ -771,13 +774,19 @@ $mgrey: #f6f4f3;
 	// align-items: center;
 	span {
 		color: #333333;
+		font-family: 'HelveticaNeue-Light';
+		font-size: 15px;
 		&.phone-num {
 			color: #333333;
+			font-family: 'HelveticaNeue-Medium';
+			font-size: 19px;
+			margin: -3px 0 -3px 0;
 		}
 	}
 }
 .banner {
-	margin: 50px 0 0 0;
+	padding: 12px 0 0 0;
+	margin: 50px 0 50px 0;
 	height: 122px;
 	width: 170px;
 	text-align: center;
@@ -794,14 +803,15 @@ $mgrey: #f6f4f3;
 	-moz-box-shadow: 0px 2px 9px 1px rgba(0,0,0,0.75);
 	box-shadow: 0px 2px 9px 1px rgba(0,0,0,0.75);
 	span {
+		font-family: 'BebasNeue Bold';
 		display: block;
-		font-size: 26px;
-		font-weight: 700;
+		font-size: 40px;
+		// font-weight: 700;
 		&:last-child {
 			display: block;
-			font-size: 20px;
-			font-weight: 700;
-			margin-top: -7px;
+			font-size: 46px;
+			// font-weight: 700;
+			margin-top: -20px;
 		}
 	}
 }

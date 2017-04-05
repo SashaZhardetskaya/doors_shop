@@ -10392,11 +10392,12 @@ button.close {
   font-size: 17px; }
   .servise-contact span {
     margin: -2px 0 -2px 0;
-    color: #d8dcd4; }
+    color: #d8dcd4;
+    font-family: 'HelveticaNeue-Light'; }
     .servise-contact span.phone-num {
       color: white;
-      font-weight: 600;
-      font-size: 21px; }
+      font-size: 21px;
+      font-family: 'HelveticaNeue-Medium'; }
 
 .contact-home {
   height: 470px;
@@ -10628,6 +10629,7 @@ button.close {
   align-items: center;
   width: 170px; }
   .servise-call-main a {
+    margin: 3px 0 0 0;
     text-align: center;
     color: white;
     height: 66px;
@@ -10658,12 +10660,18 @@ button.close {
   flex-direction: column;
   width: 100%; }
   .servise-contact-main span {
-    color: #333333; }
+    color: #333333;
+    font-family: 'HelveticaNeue-Light';
+    font-size: 15px; }
     .servise-contact-main span.phone-num {
-      color: #333333; }
+      color: #333333;
+      font-family: 'HelveticaNeue-Medium';
+      font-size: 19px;
+      margin: -3px 0 -3px 0; }
 
 .banner {
-  margin: 50px 0 0 0;
+  padding: 12px 0 0 0;
+  margin: 50px 0 50px 0;
   height: 122px;
   width: 170px;
   text-align: center;
@@ -10678,14 +10686,13 @@ button.close {
   -moz-box-shadow: 0px 2px 9px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 2px 9px 1px rgba(0, 0, 0, 0.75); }
   .banner span {
+    font-family: 'BebasNeue Bold';
     display: block;
-    font-size: 26px;
-    font-weight: 700; }
+    font-size: 40px; }
     .banner span:last-child {
       display: block;
-      font-size: 20px;
-      font-weight: 700;
-      margin-top: -7px; }
+      font-size: 46px;
+      margin-top: -20px; }
 
 .footer-contact-home {
   height: 70vh;
