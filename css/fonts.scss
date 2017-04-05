@@ -1,5 +1,6 @@
 // font-family: 'HelveticaNeueCyr-Light';
 // font-family: 'HelveticaNeue-Light';
+// font-family: 'HelveticaNeue-Medium';
 
 
 
@@ -8,6 +9,15 @@
   src: url('HelveticaNeue-Light.eot');
   src: url('HelveticaNeue-Light.woff2') format('woff2'),
        url('HelveticaNeue-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue-Medium';
+  src: url('HelveticaNeue-Medium.eot');
+  src: url('HelveticaNeue-Medium.woff2') format('woff2'),
+       url('HelveticaNeue-Medium.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }

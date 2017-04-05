@@ -9890,6 +9890,13 @@ button.close {
   font-style: normal; }
 
 @font-face {
+  font-family: 'HelveticaNeue-Medium';
+  src: url("HelveticaNeue-Medium.eot");
+  src: url("HelveticaNeue-Medium.woff2") format("woff2"), url("HelveticaNeue-Medium.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
   font-family: 'HelveticaNeueCyr-BlackItalic';
   src: url("HelveticaNeueCyr-BlackItalic.eot");
   src: url("HelveticaNeueCyr-BlackItalic.woff2") format("woff2"), url("HelveticaNeueCyr-BlackItalic.eot?#iefix") format("embedded-opentype");
@@ -10246,14 +10253,17 @@ button.close {
   .info-col-first p {
     margin: 0;
     color: white;
-    font-size: 12px;
-    text-decoration: underline; }
+    font-size: 11px;
+    text-decoration: underline;
+    cursor: pointer; }
     .info-col-first p:first-child {
       margin: 80px 0 0 0;
       font-size: 14px;
       text-decoration: none; }
 
 .social-link {
+  display: flex;
+  justify-content: space-between;
   margin: 8px 0 0 0; }
   .social-link a {
     width: 28px;
@@ -10330,6 +10340,7 @@ button.close {
     text-transform: uppercase;
     color: #435b21;
     font-size: 37px;
+    font-family: 'HelveticaNeue-Medium' sans-serif;
     font-weight: 600;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), -1px -1px 0 rgba(255, 255, 255, 0.2); }
 
@@ -10340,8 +10351,7 @@ button.close {
 .servise-call {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: center;
   margin: 80px 0 0 0;
   width: 200px; }
   .servise-call a {
@@ -10372,13 +10382,18 @@ button.close {
         margin-top: -7px; }
 
 .servise-contact {
+  text-align: center;
   display: flex;
   flex-direction: column;
-  width: 100%; }
+  width: 100%;
+  font-size: 17px; }
   .servise-contact span {
+    margin: -2px 0 -2px 0;
     color: #d8dcd4; }
     .servise-contact span.phone-num {
-      color: white; }
+      color: white;
+      font-weight: 600;
+      font-size: 21px; }
 
 .contact-home {
   height: 470px;

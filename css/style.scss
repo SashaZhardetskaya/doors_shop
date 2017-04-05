@@ -256,8 +256,9 @@ $mgrey: #f6f4f3;
 	p {
 		margin: 0;
 		color: white;
-		font-size: 12px;
+		font-size: 11px;
 		text-decoration: underline;
+		cursor: pointer;
 		&:first-child {
 			margin: 80px 0 0 0;
 			font-size: 14px;
@@ -267,6 +268,9 @@ $mgrey: #f6f4f3;
 }
 
 .social-link {
+	display: flex;
+	// flex-direction: column;
+	justify-content: space-between;
 	margin: 8px 0 0 0;
 	a {
 		width: 28px;
@@ -353,6 +357,7 @@ $mgrey: #f6f4f3;
 		color: #435b21;
 		// color: transparent;
 		font-size: 37px;
+		font-family: 'HelveticaNeue-Medium' sans-serif;
 		font-weight: 600;
 		text-shadow: 1px 1px 2px rgba(0,0,0,0.5) , -1px -1px 0 rgba(255,255,255,0.2) ;
 		// text-shadow: 0 0 3px rgba(0,0,0,0.5) ;
@@ -367,8 +372,8 @@ $mgrey: #f6f4f3;
 .servise-call {
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
-	align-items: center;
+	justify-content: center;
+	// align-items: center;
 	margin: 80px 0 0 0;
 	width: 200px;
 	a {
@@ -402,15 +407,20 @@ $mgrey: #f6f4f3;
 }
 
 .servise-contact {
+	text-align: center;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	font-size: 17px;
 	// justify-content: flex-end;
 	// align-items: center;
 	span {
+		margin: -2px 0 -2px 0;
 		color: #d8dcd4;
 		&.phone-num {
 			color: white;
+			font-weight: 600;
+			font-size: 21px;
 		}
 	}
 }
