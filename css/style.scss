@@ -135,15 +135,17 @@ $mgrey: #f6f4f3;
 		margin: 0;
 		padding: 0;
 		font-size: 12px;
-		display: inline-block;
 		color: white;
-		font-family: 'HelveticaNeue-Light' sans-serif;
+		font-family: 'HelveticaNeueCyr-Light';
+		&:last-child {
+			margin-top: -2px;
+		}
 	}
 }
 .trash-img {
 	display: inline-block;
-	margin: 0 6px 0 0;
-	width: 30px;
+	margin: 0 8px 0 2px;
+	width: 31px;
     height: 30px;
     border: none;
     background: url(../img/trash.png) no-repeat 50% 50%;
@@ -200,9 +202,9 @@ $mgrey: #f6f4f3;
     color: #ff3f3e; 
     font-size: 17px;
     font-family: 'HelveticaNeue-Light' sans-serif;
-    -webkit-box-shadow: inset 0px 0px 8px -1px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 0px 0px 8px -1px rgba(0,0,0,0.75);
-	box-shadow: inset 0px 0px 8px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: inset -1px 1px 4px 0px rgba(0,0,0,0.61);
+	-moz-box-shadow: inset -1px 1px 4px 0px rgba(0,0,0,0.61);
+	box-shadow: inset -1px 1px 4px 0px rgba(0,0,0,0.61);
     &.active {
     	color: white;
     }
