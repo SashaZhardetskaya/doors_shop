@@ -44,6 +44,9 @@ $mgrey: #f6f4f3;
 	margin-right: 0;
     margin-left: 0;
 }
+.mycol {
+	padding: 0;
+}
 
 .menu {
 	display: none;
@@ -683,15 +686,22 @@ $mgrey: #f6f4f3;
 .about-title {
 	text-align: center;
 	text-transform: uppercase;
+	color: #507127;
+	font-size: 42px;
+	font-family: 'BebasNeue Bold';
 }
 
 .left-side-navigation {
 	list-style-type: none;
+	margin: 0;
 	padding: 0;
 	color: #6b976a;
 	li {
-		padding: 0;
+		padding: 7px 0 0 0;
 		cursor: pointer;
+		font-size: 14px;
+		text-transform: uppercase;
+		font-weight: 500;
 		&:active, &:hover, &:focus {
 			color: #d96868;
 		}
@@ -703,6 +713,7 @@ $mgrey: #f6f4f3;
 	position: relative;
 	bottom: -50px;
 	margin: -50px 0 0 0;
+	padding: 5px 17px 5px 17px;
 	background: linear-gradient(
 	  #f7f7f7 95%,
 	  #f1f1f1 50%);
@@ -714,6 +725,8 @@ $mgrey: #f6f4f3;
 	box-shadow: 0px 0px 21px -1px rgba(0,0,0,0.65);
 	p {
 		text-indent: 17px;
+		font-size: 15px;
+		font-family: 'HelveticaNeue-Light';
 	}
 }
 

@@ -10068,6 +10068,9 @@ button.close {
   margin-right: 0;
   margin-left: 0; }
 
+.mycol {
+  padding: 0; }
+
 .menu {
   display: none;
   top: 65px;
@@ -10582,15 +10585,22 @@ button.close {
 
 .about-title {
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #507127;
+  font-size: 42px;
+  font-family: 'BebasNeue Bold'; }
 
 .left-side-navigation {
   list-style-type: none;
+  margin: 0;
   padding: 0;
   color: #6b976a; }
   .left-side-navigation li {
-    padding: 0;
-    cursor: pointer; }
+    padding: 7px 0 0 0;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500; }
     .left-side-navigation li:active, .left-side-navigation li:hover, .left-side-navigation li:focus {
       color: #d96868; }
 
@@ -10598,6 +10608,7 @@ button.close {
   position: relative;
   bottom: -50px;
   margin: -50px 0 0 0;
+  padding: 5px 17px 5px 17px;
   background: linear-gradient(#f7f7f7 95%, #f1f1f1 50%);
   background-size: 3px 21px;
   background-color: #f7f7f7;
@@ -10606,7 +10617,9 @@ button.close {
   -moz-box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.65);
   box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.65); }
   .main-article p {
-    text-indent: 17px; }
+    text-indent: 17px;
+    font-size: 15px;
+    font-family: 'HelveticaNeue-Light'; }
 
 .servise-call-main {
   display: flex;
