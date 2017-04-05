@@ -452,6 +452,9 @@ $mgrey: #f6f4f3;
 
 .door-img {
 	margin: auto;
+	-webkit-box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.75);
 }
 .door-1 {
 	span {
@@ -689,6 +692,9 @@ $mgrey: #f6f4f3;
 	-webkit-box-shadow: 0px 0px 21px -1px rgba(0,0,0,0.65);
 	-moz-box-shadow: 0px 0px 21px -1px rgba(0,0,0,0.65);
 	box-shadow: 0px 0px 21px -1px rgba(0,0,0,0.65);
+	p {
+		text-indent: 17px;
+	}
 }
 
 

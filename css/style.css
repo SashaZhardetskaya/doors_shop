@@ -10315,7 +10315,10 @@ button.close {
   text-align: center; }
 
 .door-img {
-  margin: auto; }
+  margin: auto;
+  -webkit-box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75); }
 
 .door-1 span {
   background: url(../img/door-1.png) center center no-repeat;
@@ -10479,6 +10482,8 @@ button.close {
   -webkit-box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.65);
   -moz-box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.65);
   box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.65); }
+  .main-article p {
+    text-indent: 17px; }
 
 .servise-call-main {
   display: flex;
