@@ -10734,9 +10734,11 @@ button.close {
     margin: 0 0 0 3%;
     display: inline-block;
     color: white;
-    cursor: pointer; }
+    cursor: pointer;
+    font-size: 16px; }
 
 .footer-content span {
   display: block;
   margin: 10px 0 0 0;
-  color: rgba(255, 255, 255, 0.4); }
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px; }
