@@ -106,7 +106,6 @@ $('.about-home-button a').click(function(){
 
 
 $(document).ready(function(){
-	new WOW().init(); // инициализация wow.js
     $('.menu-burger').on('click', showMmenu);
 });
 
