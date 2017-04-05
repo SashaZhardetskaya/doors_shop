@@ -352,6 +352,11 @@ $mgrey: #f6f4f3;
 	}
 }
 
+.info-col-second {
+	display: flex;
+	justify-content: flex-end;
+}
+
 .servise-call {
 	display: flex;
 	flex-direction: column;
@@ -364,12 +369,25 @@ $mgrey: #f6f4f3;
 		color: white;
 		height: 66px;
 		width: 200px;
+		box-sizing: border-box;
 		margin: 8px 24px 0 0;
+		padding: 4px 7px 4px 7px;
 		background: #d43332;
 		@include border-radius(5px);
 		-webkit-box-shadow: inset 0px 0px 17px -2px rgba(0,0,0,0.75);
 		-moz-box-shadow: inset 0px 0px 17px -2px rgba(0,0,0,0.75);
 		box-shadow: inset 0px 0px 17px -2px rgba(0,0,0,0.75);
+		span {
+			display: block;
+			font-size: 26px;
+			font-weight: 700;
+			&:last-child {
+				display: block;
+				font-size: 20px;
+				font-weight: 700;
+				margin-top: -7px;
+			}
+		}
 	}
 }
 
@@ -379,6 +397,12 @@ $mgrey: #f6f4f3;
 	width: 100%;
 	// justify-content: flex-end;
 	// align-items: center;
+	span {
+		color: #d8dcd4;
+		&.phone-num {
+			color: white;
+		}
+	}
 }
 
 //contact page
@@ -404,7 +428,7 @@ $mgrey: #f6f4f3;
 	flex-direction: row;
 	justify-content: space-between;
 	position: relative;
-	bottom: -220px;
+	// bottom: -220px;
 	z-index: 3;
 	margin: 0 -3% 0 -3%;
 }
@@ -414,39 +438,61 @@ $mgrey: #f6f4f3;
 		display: block;
 		height: 280px;
 	}
+	p {
+		text-align: center;
+	}
 }
 
+.door-img {
+	margin: auto;
+}
 .door-1 {
 	span {
 		background: url(../img/door-1.png) center center no-repeat;
+		background-size: contain;
+		width: 130px;
+		height: 280px;
 	}
 }
 .door-2 {
 	span {
 		background: url(../img/door-2.png) center center no-repeat;
+		background-size: contain;
+		height: 280px;
+		width: 130px;
 	}
 }
 .door-3 {
 	span {
 		background: url(../img/door-3.png) center center no-repeat;
+		background-size: contain;
+		height: 280px;
+		width: 130px;
 	}
 }
 .door-4 {
 	span {
 		background: url(../img/door-4.png) center center no-repeat;
+		background-size: contain;
+		height: 280px;
+		width: 130px;
 	}
 }
 .door-5 {
 	span {
 		background: url(../img/door-5.png) center center no-repeat;
+		background-size: contain;
+		height: 280px;
+		width: 130px;
 	}
 }
 
 
 .slider-container {
 	// background: #eaeaea;
-	margin: -12px 0 -12px 0;
+	margin: 0 0 -12px 0;
 	position: relative;
+	top: -308px;
 	z-index: 2;
 	display: inline-block;
     vertical-align: middle;
@@ -486,11 +532,11 @@ $mgrey: #f6f4f3;
 
 
 .slider {
+	
 	z-index: 0;
 	width: 100%;
-	height: 80vh;
 	overflow: hidden;
-	margin: 0 0 7px;
+	// margin: 0 0 7px;
 	position: relative;
 	ul, li {
 		padding: 0;
@@ -498,50 +544,46 @@ $mgrey: #f6f4f3;
 		list-style-type: none;
 	}
 	ul {
+		margin: 400px 0 0 0;
 	 	width: 500%; 
-	 	height: 80vh;
+	 	
+
+	 	// height: 100%;
+
 		li {
 			display: inline-block;
 			list-style-type: none;
 			float: left;
 			width: 20%;
-			height: 80vh;
-			img {
-				width: 100%;
-				// height: 15vh;
-				margin: 10vh 0 3vh 0;
-			}
-			div {
-				position: relative;
-				top: -200px;
-				text-align: center;
-				font-family: "GothamProRegular";
-				font-size: 16px;
-				letter-spacing: 1px;
-			}
-			p {
-				position: relative;
-				top: -200px;
-				text-align: center;
-				line-height: 1.5;
-				font-family: "GothamProRegular";
-				font-size: 30px;
+			height: 325px;
+			-webkit-box-shadow:6px 18px 12px #888, 0px -1px 5px #888;
+			-moz-box-shadow:6px 18px 12px #888, 0px -1px 5px #888;
+			box-shadow: 6px 18px 12px #888, 0px -1px 5px #888;
 
+			.slider-img {
+				background: url(../img/slide-img.png) 50% 65% no-repeat;
+				@include background-size(130%);
+				border: 10px solid white;
+	 			height: 100%;
+	 			-webkit-box-shadow: inset 0px 0px 31px -1px rgba(0,0,0,1);
+				-moz-box-shadow: inset 0px 0px 31px -1px rgba(0,0,0,1);
+				box-shadow: inset 0px 0px 31px -1px rgba(0,0,0,1);
 			}
+			// height: 80vh;
 	 	}
 	}
 	.nav {
 		display: flex;
 		justify-content: center;
 		position: absolute;
-		left: 40%;
-		top: 45px; 
+		left: 47%;
+		top: 350px; 
 		span {
 			opacity: 0.9;
-			background: #fff;
+			background: #d3d1d1;
 			margin: 0 8px 0 0;
-			width: 16px;
-			height: 16px;
+			width: 11px;
+			height: 11px;
 			border-radius: 8px;
 			cursor: pointer;
 			overflow: hidden;
@@ -549,7 +591,7 @@ $mgrey: #f6f4f3;
 			float: left;
 			box-shadow: 0 1px 2px #000;
 			&.on {
-				background: #35bdf6;
+				background: #c72f2e;
 			}
 		}
 	}

@@ -10229,6 +10229,10 @@ button.close {
     font-weight: 600;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), -1px -1px 0 rgba(255, 255, 255, 0.2); }
 
+.info-col-second {
+  display: flex;
+  justify-content: flex-end; }
+
 .servise-call {
   display: flex;
   flex-direction: column;
@@ -10241,7 +10245,9 @@ button.close {
     color: white;
     height: 66px;
     width: 200px;
+    box-sizing: border-box;
     margin: 8px 24px 0 0;
+    padding: 4px 7px 4px 7px;
     background: #d43332;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -10251,11 +10257,24 @@ button.close {
     -webkit-box-shadow: inset 0px 0px 17px -2px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: inset 0px 0px 17px -2px rgba(0, 0, 0, 0.75);
     box-shadow: inset 0px 0px 17px -2px rgba(0, 0, 0, 0.75); }
+    .servise-call a span {
+      display: block;
+      font-size: 26px;
+      font-weight: 700; }
+      .servise-call a span:last-child {
+        display: block;
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: -7px; }
 
 .servise-contact {
   display: flex;
   flex-direction: column;
   width: 100%; }
+  .servise-contact span {
+    color: #d8dcd4; }
+    .servise-contact span.phone-num {
+      color: white; }
 
 .contact-home {
   height: 70vh;
@@ -10280,7 +10299,6 @@ button.close {
   flex-direction: row;
   justify-content: space-between;
   position: relative;
-  bottom: -220px;
   z-index: 3;
   margin: 0 -3% 0 -3%; }
 
@@ -10288,24 +10306,46 @@ button.close {
   display: block;
   height: 280px; }
 
+.door-single p {
+  text-align: center; }
+
+.door-img {
+  margin: auto; }
+
 .door-1 span {
-  background: url(../img/door-1.png) center center no-repeat; }
+  background: url(../img/door-1.png) center center no-repeat;
+  background-size: contain;
+  width: 130px;
+  height: 280px; }
 
 .door-2 span {
-  background: url(../img/door-2.png) center center no-repeat; }
+  background: url(../img/door-2.png) center center no-repeat;
+  background-size: contain;
+  height: 280px;
+  width: 130px; }
 
 .door-3 span {
-  background: url(../img/door-3.png) center center no-repeat; }
+  background: url(../img/door-3.png) center center no-repeat;
+  background-size: contain;
+  height: 280px;
+  width: 130px; }
 
 .door-4 span {
-  background: url(../img/door-4.png) center center no-repeat; }
+  background: url(../img/door-4.png) center center no-repeat;
+  background-size: contain;
+  height: 280px;
+  width: 130px; }
 
 .door-5 span {
-  background: url(../img/door-5.png) center center no-repeat; }
+  background: url(../img/door-5.png) center center no-repeat;
+  background-size: contain;
+  height: 280px;
+  width: 130px; }
 
 .slider-container {
-  margin: -12px 0 -12px 0;
+  margin: 0 0 -12px 0;
   position: relative;
+  top: -308px;
   z-index: 2;
   display: inline-block;
   vertical-align: middle;
@@ -10330,52 +10370,48 @@ button.close {
 .slider {
   z-index: 0;
   width: 100%;
-  height: 80vh;
   overflow: hidden;
-  margin: 0 0 7px;
   position: relative; }
   .slider ul, .slider li {
     padding: 0;
     margin: 0;
     list-style-type: none; }
   .slider ul {
-    width: 500%;
-    height: 80vh; }
+    margin: 400px 0 0 0;
+    width: 500%; }
     .slider ul li {
       display: inline-block;
       list-style-type: none;
       float: left;
       width: 20%;
-      height: 80vh; }
-      .slider ul li img {
-        width: 100%;
-        margin: 10vh 0 3vh 0; }
-      .slider ul li div {
-        position: relative;
-        top: -200px;
-        text-align: center;
-        font-family: "GothamProRegular";
-        font-size: 16px;
-        letter-spacing: 1px; }
-      .slider ul li p {
-        position: relative;
-        top: -200px;
-        text-align: center;
-        line-height: 1.5;
-        font-family: "GothamProRegular";
-        font-size: 30px; }
+      height: 325px;
+      -webkit-box-shadow: 6px 18px 12px #888, 0px -1px 5px #888;
+      -moz-box-shadow: 6px 18px 12px #888, 0px -1px 5px #888;
+      box-shadow: 6px 18px 12px #888, 0px -1px 5px #888; }
+      .slider ul li .slider-img {
+        background: url(../img/slide-img.png) 50% 65% no-repeat;
+        -webkit-background-size: 130%;
+        -moz-background-size: 130%;
+        -ms-background-size: 130%;
+        -o-background-size: 130%;
+        background-size: 130%;
+        border: 10px solid white;
+        height: 100%;
+        -webkit-box-shadow: inset 0px 0px 31px -1px black;
+        -moz-box-shadow: inset 0px 0px 31px -1px black;
+        box-shadow: inset 0px 0px 31px -1px black; }
   .slider .nav {
     display: flex;
     justify-content: center;
     position: absolute;
-    left: 40%;
-    top: 45px; }
+    left: 47%;
+    top: 350px; }
     .slider .nav span {
       opacity: 0.9;
-      background: #fff;
+      background: #d3d1d1;
       margin: 0 8px 0 0;
-      width: 16px;
-      height: 16px;
+      width: 11px;
+      height: 11px;
       border-radius: 8px;
       cursor: pointer;
       overflow: hidden;
@@ -10383,7 +10419,7 @@ button.close {
       float: left;
       box-shadow: 0 1px 2px #000; }
       .slider .nav span.on {
-        background: #35bdf6; }
+        background: #c72f2e; }
 
 .main-contant {
   margin: -12px 0 -12px 0;
