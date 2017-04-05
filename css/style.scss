@@ -82,14 +82,14 @@ $mgrey: #f6f4f3;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	padding: 2px 0 0 8px;
+	padding: 5px 0 0 8px;
 	width: 100%;
 	text-decoration: none;
 	line-height: 30px;
 	&:active, &:hover, &:focus {
 		color: #35bdf6;
 		background-color: white;
-		outline: 5px auto white;
+		// outline: 5px auto white;
 		a {
 			color: #db3534;
 		}

@@ -10117,14 +10117,13 @@ button.close {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 2px 0 0 8px;
+  padding: 5px 0 0 8px;
   width: 100%;
   text-decoration: none;
   line-height: 30px; }
   .menu-item:active, .menu-item:hover, .menu-item:focus {
     color: #35bdf6;
-    background-color: white;
-    outline: 5px auto white; }
+    background-color: white; }
     .menu-item:active a, .menu-item:hover a, .menu-item:focus a {
       color: #db3534; }
   .menu-item a {
