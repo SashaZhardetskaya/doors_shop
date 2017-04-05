@@ -10426,7 +10426,15 @@ button.close {
   height: 280px; }
 
 .door-single p {
-  text-align: center; }
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #577b2b;
+  font-family: 'BebasNeue Bold';
+  font-size: 61px; }
+  .door-single p.subtitle {
+    margin: -12px 0 0 0;
+    font-size: 25px; }
 
 .door-img {
   margin: auto;
@@ -10467,7 +10475,7 @@ button.close {
 .slider-container {
   margin: 0 0 -12px 0;
   position: relative;
-  top: -150px;
+  top: -205px;
   z-index: 2;
   display: inline-block;
   vertical-align: middle;
@@ -10499,7 +10507,7 @@ button.close {
     margin: 0;
     list-style-type: none; }
   .slider ul {
-    margin: 250px 0 0 0;
+    margin: 300px 0 0 0;
     width: 500%; }
     .slider ul li {
       display: inline-block;
@@ -10524,18 +10532,19 @@ button.close {
         box-shadow: inset 0px 0px 31px -1px black; }
       .slider ul li p {
         position: relative;
-        bottom: 200px;
+        bottom: 265px;
         color: white;
         font-style: italic;
         text-align: center;
         line-height: 1.5;
-        font-size: 30px; }
+        font-size: 65px;
+        font-family: 'HelveticaNeueCyr-MediumItalic'; }
   .slider .nav {
     display: flex;
     justify-content: center;
     position: absolute;
     left: 47%;
-    top: 220px; }
+    top: 270px; }
     .slider .nav span {
       opacity: 0.9;
       background: #d3d1d1;
@@ -10552,7 +10561,7 @@ button.close {
         background: #c72f2e; }
 
 .main-contant {
-  margin: -160px 0 -12px 0;
+  margin: -215px 0 -12px 0;
   position: relative;
   z-index: 2;
   width: 100%;
