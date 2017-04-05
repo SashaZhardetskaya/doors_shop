@@ -1,217 +1,233 @@
-        // /GothamProRegular
-        // /GothamProBold
-        // /GothamProBlack
-        // /GothamProItalic
-        // /GothamProMedium
-        // /GothamProLight
-        // /GothamProMediumItalic
-        // /GothamProLightItalic
-        // /GothamProBoldItalic
-        // /GothamProBlackItalic
+// font-family: 'HelveticaNeueCyr-Light';
+// font-family: 'HelveticaNeue-Light';
 
 
-/* font-family: "GothamProRegular"; */
+
 @font-face {
-    font-family: "GothamProRegular";
-    src: url("../fonts/GothamProRegular/GothamProRegular.eot");
-    src: url("../fonts/GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
-    url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-/* font-family: "GothamProBold"; */
-@font-face {
-    font-family: "GothamProBold";
-    src: url("../fonts/GothamProBold/GothamProBold.eot");
-    src: url("../fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/GothamProBold/GothamProBold.woff") format("woff"),
-    url("../fonts/GothamProBold/GothamProBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-/* font-family: "GothamProBlack"; */
-@font-face {
-    font-family: "GothamProBlack";
-    src: url("../fonts/GothamProBlack/GothamProBlack.eot");
-    src: url("../fonts/GothamProBlack/GothamProBlack.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/GothamProBlack/GothamProBlack.woff") format("woff"),
-    url("../fonts/GothamProBlack/GothamProBlack.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-/* font-family: "GothamProItalic"; */
-@font-face {
-    font-family: "GothamProItalic";
-    src: url("../fonts/GothamProItalic/GothamProItalic.eot");
-    src: url("../fonts/GothamProItalic/GothamProItalic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/GothamProItalic/GothamProItalic.woff") format("woff"),
-    url("../fonts/GothamProItalic/GothamProItalic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-/* font-family: "GothamProMedium"; */
-@font-face {
-    font-family: "GothamProMedium";
-    src: url("../fonts/GothamProMedium/GothamProMedium.eot");
-    src: url("../fonts/GothamProMedium/GothamProMedium.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/GothamProMedium/GothamProMedium.woff") format("woff"),
-    url("../fonts/GothamProMedium/GothamProMedium.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-/* font-family: "GothamProLight"; */
-@font-face {
-    font-family: "GothamProLight";
-    src: url("../fonts/GothamProLight/GothamProLight.eot");
-    src: url("../fonts/GothamProLight/GothamProLight.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/GothamProLight/GothamProLight.woff") format("woff"),
-    url("../fonts/GothamProLight/GothamProLight.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-/* font-family: "GothamProMediumItalic"; */
-@font-face {
-    font-family: "GothamProMediumItalic";
-    src: url("../fonts/GothamProMediumItalic/GothamProMediumItalic.eot");
-    src: url("../fonts/GothamProMediumItalic/GothamProMediumItalic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/GothamProMediumItalic/GothamProMediumItalic.woff") format("woff"),
-    url("../fonts/GothamProMediumItalic/GothamProMediumItalic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-/* font-family: "GothamProLightItalic"; */
-@font-face {
-    font-family: "GothamProLightItalic";
-    src: url("../fonts/GothamProLightItalic/GothamProLightItalic.eot");
-    src: url("../fonts/GothamProLightItalic/GothamProLightItalic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/GothamProLightItalic/GothamProLightItalic.woff") format("woff"),
-    url("../fonts/GothamProLightItalic/GothamProLightItalic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-/* font-family: "GothamProBoldItalic"; */
-@font-face {
-    font-family: "GothamProBoldItalic";
-    src: url("../fonts/GothamProBoldItalic/GothamProBoldItalic.eot");
-    src: url("../fonts/GothamProBoldItalic/GothamProBoldItalic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/GothamProBoldItalic/GothamProBoldItalic.woff") format("woff"),
-    url("../fonts/GothamProBoldItalic/GothamProBoldItalic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-/* font-family: "GothamProBlackItalic"; */
-@font-face {
-    font-family: "GothamProBlackItalic";
-    src: url("../fonts/GothamProBlackItalic/GothamProBlackItalic.eot");
-    src: url("../fonts/GothamProBlackItalic/GothamProBlackItalic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/GothamProBlackItalic/GothamProBlackItalic.woff") format("woff"),
-    url("../fonts/GothamProBlackItalic/GothamProBlackItalic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+  font-family: 'HelveticaNeue-Light';
+  src: url('HelveticaNeue-Light.eot');
+  src: url('HelveticaNeue-Light.woff2') format('woff2'),
+       url('HelveticaNeue-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
+@font-face {
+  font-family: 'HelveticaNeueCyr-BlackItalic';
+  src: url('HelveticaNeueCyr-BlackItalic.eot');
+  src: url('HelveticaNeueCyr-BlackItalic.woff2') format('woff2'),
+       url('HelveticaNeueCyr-BlackItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-Black';
+  src: url('HelveticaNeueCyr-Black.eot');
+  src: url('HelveticaNeueCyr-Black.woff2') format('woff2'),
+       url('HelveticaNeueCyr-Black.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-Bold';
+  src: url('HelveticaNeueCyr-Bold.eot');
+  src: url('HelveticaNeueCyr-Bold.woff2') format('woff2'),
+       url('HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-BoldItalic';
+  src: url('HelveticaNeueCyr-BoldItalic.eot');
+  src: url('HelveticaNeueCyr-BoldItalic.woff2') format('woff2'),
+       url('HelveticaNeueCyr-BoldItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-Heavy';
+  src: url('HelveticaNeueCyr-Heavy.eot');
+  src: url('HelveticaNeueCyr-Heavy.woff2') format('woff2'),
+       url('HelveticaNeueCyr-Heavy.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-HeavyItalic';
+  src: url('HelveticaNeueCyr-HeavyItalic.eot');
+  src: url('HelveticaNeueCyr-HeavyItalic.woff2') format('woff2'),
+       url('HelveticaNeueCyr-HeavyItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-Heavy';
+  src: url('HelveticaNeueCyr-Heavy.eot');
+  src: url('HelveticaNeueCyr-Heavy.woff2') format('woff2'),
+       url('HelveticaNeueCyr-Heavy.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-Italic';
+  src: url('HelveticaNeueCyr-Italic.eot');
+  src: url('HelveticaNeueCyr-Italic.woff2') format('woff2'),
+       url('HelveticaNeueCyr-Italic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-Light';
+  src: url('HelveticaNeueCyr-Light.eot');
+  src: url('HelveticaNeueCyr-Light.woff2') format('woff2'),
+       url('HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-LightItalic';
+  src: url('HelveticaNeueCyr-LightItalic.eot');
+  src: url('HelveticaNeueCyr-LightItalic.woff2') format('woff2'),
+       url('HelveticaNeueCyr-LightItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-Medium';
+  src: url('HelveticaNeueCyr-Medium.eot');
+  src: url('HelveticaNeueCyr-Medium.woff2') format('woff2'),
+       url('HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-MediumItalic';
+  src: url('HelveticaNeueCyr-MediumItalic.eot');
+  src: url('HelveticaNeueCyr-MediumItalic.woff2') format('woff2'),
+       url('HelveticaNeueCyr-MediumItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-Roman';
+  src: url('HelveticaNeueCyr-Roman.eot');
+  src: url('HelveticaNeueCyr-Roman.woff2') format('woff2'),
+       url('HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-Thin';
+  src: url('HelveticaNeueCyr-Thin.eot');
+  src: url('HelveticaNeueCyr-Thin.woff2') format('woff2'),
+       url('HelveticaNeueCyr-Thin.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-ThinItalic';
+  src: url('HelveticaNeueCyr-ThinItalic.eot');
+  src: url('HelveticaNeueCyr-ThinItalic.woff2') format('woff2'),
+       url('HelveticaNeueCyr-ThinItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-UltraLight';
+  src: url('HelveticaNeueCyr-UltraLight.eot');
+  src: url('HelveticaNeueCyr-UltraLight.woff2') format('woff2'),
+       url('HelveticaNeueCyr-UltraLight.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-UltraLightItalic';
+  src: url('HelveticaNeueCyr-UltraLightItalic.eot');
+  src: url('HelveticaNeueCyr-UltraLightItalic.woff2') format('woff2'),
+       url('HelveticaNeueCyr-UltraLightItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Condensed Black';
+  src: url('Helvetica Neue Condensed Black.eot');
+  src: url('Helvetica Neue Condensed Black.woff2') format('woff2'),
+       url('Helvetica Neue Condensed Black.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Condensed Bold';
+  src: url('Helvetica Neue Condensed Bold.eot');
+  src: url('Helvetica Neue Condensed Bold.woff2') format('woff2'),
+       url('Helvetica Neue Condensed Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
+// ----------BebasNeue------------
 
+@font-face {
+  font-family: 'BebasNeue Book';
+  src: url('BebasNeue Book.eot');
+  src: url('BebasNeue Book.woff2') format('woff2'),
+       url('BebasNeue Book.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'BebasNeue Light';
+  src: url('BebasNeue Light.eot');
+  src: url('BebasNeue Light.woff2') format('woff2'),
+       url('BebasNeue Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'BebasNeue Regular';
+  src: url('BebasNeue Regular.eot');
+  src: url('BebasNeue Regular.woff2') format('woff2'),
+       url('BebasNeue Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'BebasNeue Thin';
+  src: url('BebasNeue Thin.eot');
+  src: url('BebasNeue Thin.woff2') format('woff2'),
+       url('BebasNeue Thin.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'BebasNeue Bold';
+  src: url('BebasNeue Bold.eot');
+  src: url('BebasNeue Bold.woff2') format('woff2'),
+       url('BebasNeue Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// @font-face {
-//     font-family: Gotham;
-//     src: '../fonts/GothaProBla.otf';
-//     font-weight: 900;
-//     font-style: normal;
-// }
-// @font-face {
-//     font-family: Gotham;
-//     src: '../fonts/GothaProBlaIta.otf';
-//     font-weight: 900;
-//     font-style: italic;
-// }
-// @font-face {
-//     font-family: Gotham;
-//     src: '../fonts/GothaProBol.otf';
-//     font-weight: 700;
-//     font-style: normal;
-// }
-// @font-face {
-//     font-family: Gotham;
-//     src: '../fonts/GothaProBolIta.otf';
-//     font-weight: 700;
-//     font-style: italic;
-// }
-// @font-face {
-//     font-family: Gotham;
-//     src: '../fonts/GothaProIta.otf';
-//     font-weight: 200;
-//     font-style: italic;
-// }
-// @font-face {
-//     font-family: Gotham;
-//     src: '../fonts/GothaProLig.otf';
-//     font-weight: 100;
-//     font-style: normal;
-// }
-// @font-face {
-//     font-family: Gotham;
-//     src: '../fonts/GothaProLigIta.otf';
-//     font-weight: 100;
-//     font-style: italic;
-// }
-// @font-face {
-//     font-family: Gotham;
-//     src: '../fonts/GothaProMed.otf';
-//     font-weight: 400;
-//     font-style: normal;
-// }
-// @font-face {
-//     font-family: Gotham;
-//     src: '../fonts/GothaProMedIta.otf';
-//     font-weight: 400;
-//     font-style: italic;
-// }
-
-
-// @font-face {
-//     font-family: Gotham;
-//     src: '../fonts/GothaProNarBol.otf';
-//     font-weight: 700;
-//     font-style: normal;
-//     font-stretch: condensed;
-// }
-// @font-face {
-//     font-family: Gotham;
-//     src: '../fonts/GothaProNarMed.otf';
-//     font-weight: 400;
-//     font-style: normal;
-//     font-stretch: condensed;
-// }
-
-
-// @font-face {
-//     font-family: Gotham;
-//     src: '../fonts/GothaProReg.otf';
-//     font-weight: 300;
-//     font-style: normal;
-// }
