@@ -10400,6 +10400,14 @@ button.close {
         -webkit-box-shadow: inset 0px 0px 31px -1px black;
         -moz-box-shadow: inset 0px 0px 31px -1px black;
         box-shadow: inset 0px 0px 31px -1px black; }
+      .slider ul li p {
+        position: relative;
+        bottom: 200px;
+        color: white;
+        font-style: italic;
+        text-align: center;
+        line-height: 1.5;
+        font-size: 30px; }
   .slider .nav {
     display: flex;
     justify-content: center;
@@ -10439,7 +10447,14 @@ button.close {
   background-clip: padding-box, border-box, border-box, border-box, border-box;
   background-origin: padding-box, border-box, border-box, border-box, border-box; }
 
+.about-title {
+  text-align: center;
+  text-transform: uppercase; }
+
 .main-article {
+  position: relative;
+  bottom: -50px;
+  margin: -50px 0 0 0;
   background: linear-gradient(#f7f7f7 95%, #f1f1f1 50%);
   background-size: 3px 21px;
   background-color: #f7f7f7;
