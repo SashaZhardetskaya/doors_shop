@@ -1,14 +1,13 @@
-var mmenu = 'close'; // пеоеменная для закрытия меню
+var mmenu = 'close'; // to close menu
 
 
 
 
-/* ajax + json */
 $(document).ready(function(){ 
-	$(".slider").each(function() { // cлайдер с автоматической прокруткой
-		var repeats = 5, // кількість повторювань автоматичного прокручування
-		interval = 3, // інтервал в секундах
-		repeat = true, // чи треба автоматично прокручувати (true/false)
+	$(".slider").each(function() { // slider with automatic counter
+		var repeats = 5, // numbers of counts
+		interval = 3, // in sec
+		repeat = true, // automatic counter (true/false)
 		slider = $(this),
 		repeatCount = 0,
 		elements = $(slider).find("li").length;
@@ -58,37 +57,6 @@ function sliderJS(index, slider) { // slide
 		sliderJS(index, slider);
 	});
 
-
-/* Слайдер без автоматической прокрутки
-
-$(document).ready(function() {
- $(".slider").each(function () { // обрабатываем каждый слайдер
-  var obj = $(this);
-  $(obj).append("<div class='nav'></div>");
-  $(obj).find("li").each(function () {
-  	console.log($(this));
-   $(obj).find(".nav").append("<span rel='"+$(this).index()+"'></span>"); // добавляем блок навигации
-   $(this).addClass("slider"+$(this).index());
-  });
-  $(obj).find("span").first().addClass("on"); // делаем активным первый элемент меню
- });
-});
-function sliderJS (obj, sl) { // slider function
- var ul = $(sl).find("ul"); // находим блок
- var bl = $(sl).find("li.slider"+obj); // находим любой из элементов блока
- var step = $(bl).width(); // ширина объекта
- $(ul).animate({marginLeft: "-"+step*obj}, 500); // 500 это скорость перемотки
-}
-$(document).on("click", ".slider .nav span", function() { // slider click navigate
- var sl = $(this).closest(".slider"); // находим, в каком блоке был клик
- $(sl).find("span").removeClass("on"); // убираем активный элемент
- $(this).addClass("on"); // делаем активным текущий
- var obj = $(this).attr("rel"); // узнаем его номер
- sliderJS(obj, sl); // слайдим
- return false;
-});
-
-*/
 
 /* ANCHORS	*/
 

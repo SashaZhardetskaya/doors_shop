@@ -10233,22 +10233,6 @@ button.close {
   .submit-lang.active {
     color: white; }
 
-/* .home {
-	// display: flex;
-	// justify-content: center;
-	// align-items: center;
-	height: 100vh;
-	// background: url(../img/crafted_splash.jpg) center center no-repeat;
-	background: -moz-linear-gradient(left, rgba(65,91,25,0.77) 0%, rgba(92,122,48,0.77) 17%, rgba(132,170,83,0.77) 43%, rgba(148,188,96,0.76) 53%, rgba(134,171,84,0.76) 61%, rgba(97,128,52,0.74) 82%, rgba(65,91,25,0.74) 100%); FF3.6-15
-	background: -webkit-linear-gradient(left, rgba(65,91,25,0.77) 0%,rgba(92,122,48,0.77) 17%,rgba(132,170,83,0.77) 43%,rgba(148,188,96,0.76) 53%,rgba(134,171,84,0.76) 61%,rgba(97,128,52,0.74) 82%,rgba(65,91,25,0.74) 100%); Chrome10-25,Safari5.1-6
-	background: linear-gradient(to right, rgba(65,91,25,0.77) 0%,rgba(92,122,48,0.77) 17%,rgba(132,170,83,0.77) 43%,rgba(148,188,96,0.76) 53%,rgba(134,171,84,0.76) 61%,rgba(97,128,52,0.74) 82%,rgba(65,91,25,0.74) 100%); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4415b19', endColorstr='#bd415b19',GradientType=1 ); IE6-9
-	background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-} */
 .info-col-first {
   display: flex;
   flex-direction: column;
