@@ -10095,7 +10095,7 @@ button.close {
   top: 7px;
   left: 17%;
   border: none;
-  background-color: inherit;
+  background-color: transparent;
   color: white;
   outline: none; }
   .menu-burger .burger-icon {
@@ -10265,6 +10265,7 @@ button.close {
       text-decoration: none; }
 
 .social-link {
+  width: 200px;
   display: flex;
   justify-content: space-between;
   margin: 8px 0 0 0; }

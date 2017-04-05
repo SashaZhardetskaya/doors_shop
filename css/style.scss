@@ -73,7 +73,7 @@ $mgrey: #f6f4f3;
 	top: 7px;
 	left: 17%;
 	border: none;
-	background-color: inherit;
+	background-color: transparent;
 	color: white;
 	outline: none;
 	.burger-icon {
@@ -271,6 +271,7 @@ $mgrey: #f6f4f3;
 }
 
 .social-link {
+	width: 200px;
 	display: flex;
 	// flex-direction: column;
 	justify-content: space-between;
